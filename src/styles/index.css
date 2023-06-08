@@ -6,11 +6,20 @@
 .yellow{
     background-color: yellow;
 }
+.yellow.selected{
+    box-shadow: 0px 5px 15px 15px yellow
+}
 .green{
     background-color: green;
 }
+.green.selected{
+    box-shadow: 0px 5px 15px 15px green
+}
 .red{
     background-color: red;
+}
+.red.selected{
+    box-shadow: 0px 5px 15px 15px red
 }
 .stick{
     background-color: black;
@@ -23,14 +32,4 @@
     border-radius: 5%;
     height: 260px;
     width: 90px;
-}
-
-.red-on{
-    box-shadow: 0px 5px 15px 15px red ;
-}
-.yellow-on{
-    box-shadow: 0px 5px 15px 15px yellow ;
-}
-.green-on{
-    box-shadow: 0px 5px 15px 15px green ;
 }
